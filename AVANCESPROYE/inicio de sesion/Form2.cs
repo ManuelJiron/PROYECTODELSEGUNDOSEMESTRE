@@ -17,7 +17,7 @@ namespace inicio_de_sesion
             InitializeComponent();
         }
 
-        Form3 AgregarProducto = new Form3();
+       
         Form4 VerInventario = new Form4();  
 
         
@@ -39,9 +39,6 @@ namespace inicio_de_sesion
             VerInventario.Show();
         }
 
-        private void btnAgregar_Click(object sender, EventArgs e)
-        {
-            AgregarProducto.Show();
-        }
+       
     }
 }

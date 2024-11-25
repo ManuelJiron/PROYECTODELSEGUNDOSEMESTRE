@@ -23,3 +23,15 @@ D:\ReposDelViernes\RESOLUCION-DE-EJERCICIOS\AVANCESPROYE\inicio de sesion\obj\De
 D:\ReposDelViernes\RESOLUCION-DE-EJERCICIOS\AVANCESPROYE\inicio de sesion\obj\Debug\inicio de sesion.exe
 D:\ReposDelViernes\RESOLUCION-DE-EJERCICIOS\AVANCESPROYE\inicio de sesion\obj\Debug\inicio de sesion.pdb
 D:\ReposDelViernes\RESOLUCION-DE-EJERCICIOS\AVANCESPROYE\inicio de sesion\obj\Debug\inicio_de_sesion.Form4.resources
+D:\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\inicio de sesion\bin\Debug\inicio de sesion.exe.config
+D:\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\inicio de sesion\bin\Debug\inicio de sesion.exe
+D:\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\inicio de sesion\bin\Debug\inicio de sesion.pdb
+D:\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\inicio de sesion\obj\Debug\inicio de sesion.csproj.AssemblyReference.cache
+D:\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\inicio de sesion\obj\Debug\inicio_de_sesion.s.resources
+D:\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\inicio de sesion\obj\Debug\inicio_de_sesion.Form2.resources
+D:\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\inicio de sesion\obj\Debug\inicio_de_sesion.Form4.resources
+D:\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\inicio de sesion\obj\Debug\inicio_de_sesion.Properties.Resources.resources
+D:\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\inicio de sesion\obj\Debug\inicio de sesion.csproj.GenerateResource.cache
+D:\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\inicio de sesion\obj\Debug\inicio de sesion.csproj.CoreCompileInputs.cache
+D:\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\inicio de sesion\obj\Debug\inicio de sesion.exe
+D:\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\inicio de sesion\obj\Debug\inicio de sesion.pdb

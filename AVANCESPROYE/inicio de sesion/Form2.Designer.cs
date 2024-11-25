@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.btnSalir = new System.Windows.Forms.Button();
-            this.btnAgregar = new System.Windows.Forms.Button();
             this.btnAcciones = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -46,23 +45,12 @@
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // btnAgregar
-            // 
-            this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(357, 206);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(120, 28);
-            this.btnAgregar.TabIndex = 2;
-            this.btnAgregar.Text = "Agregar Productos";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
-            // 
             // btnAcciones
             // 
             this.btnAcciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAcciones.Location = new System.Drawing.Point(357, 250);
+            this.btnAcciones.Location = new System.Drawing.Point(322, 215);
             this.btnAcciones.Name = "btnAcciones";
-            this.btnAcciones.Size = new System.Drawing.Size(120, 31);
+            this.btnAcciones.Size = new System.Drawing.Size(186, 58);
             this.btnAcciones.TabIndex = 3;
             this.btnAcciones.Text = "Acciones";
             this.btnAcciones.UseVisualStyleBackColor = true;
@@ -84,7 +72,6 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnAcciones);
-            this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form2";
@@ -99,7 +86,6 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnSalir;
-        private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnAcciones;
     }
 }

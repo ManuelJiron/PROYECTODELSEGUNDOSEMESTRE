@@ -30,11 +30,6 @@
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dgvInventario = new System.Windows.Forms.DataGridView();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Productos = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Usuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblInventariodeProductos = new System.Windows.Forms.Label();
             this.lblAccionProducto = new System.Windows.Forms.Label();
             this.lblAccionID = new System.Windows.Forms.Label();
@@ -46,9 +41,14 @@
             this.lblAccionUsuario = new System.Windows.Forms.Label();
             this.txtAccionCantidad = new System.Windows.Forms.TextBox();
             this.txtAccionUsuario = new System.Windows.Forms.TextBox();
-            this.btnAccionModificar = new System.Windows.Forms.Button();
             this.btnAccionEliminar = new System.Windows.Forms.Button();
             this.btnAccionSalir = new System.Windows.Forms.Button();
+            this.btnAccionCargar = new System.Windows.Forms.Button();
+            this.btnAccionGuardar = new System.Windows.Forms.Button();
+            this.btnAccionEditar = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.btnAccionAgregar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventario)).BeginInit();
             this.SuspendLayout();
@@ -66,48 +66,13 @@
             // 
             this.dgvInventario.AllowUserToAddRows = false;
             this.dgvInventario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvInventario.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ID,
-            this.Productos,
-            this.Precio,
-            this.Cantidad,
-            this.Usuario});
             this.dgvInventario.Location = new System.Drawing.Point(132, 359);
             this.dgvInventario.Name = "dgvInventario";
             this.dgvInventario.ReadOnly = true;
             this.dgvInventario.Size = new System.Drawing.Size(545, 215);
             this.dgvInventario.TabIndex = 2;
             this.dgvInventario.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvInventario_CellContentClick);
-            // 
-            // ID
-            // 
-            this.ID.HeaderText = "ID";
-            this.ID.Name = "ID";
-            this.ID.ReadOnly = true;
-            // 
-            // Productos
-            // 
-            this.Productos.HeaderText = "Productos";
-            this.Productos.Name = "Productos";
-            this.Productos.ReadOnly = true;
-            // 
-            // Precio
-            // 
-            this.Precio.HeaderText = "Precio";
-            this.Precio.Name = "Precio";
-            this.Precio.ReadOnly = true;
-            // 
-            // Cantidad
-            // 
-            this.Cantidad.HeaderText = "Cantidad";
-            this.Cantidad.Name = "Cantidad";
-            this.Cantidad.ReadOnly = true;
-            // 
-            // Usuario
-            // 
-            this.Usuario.HeaderText = "Usuario";
-            this.Usuario.Name = "Usuario";
-            this.Usuario.ReadOnly = true;
+            this.dgvInventario.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvInventario_CellContentClick);
             // 
             // lblInventariodeProductos
             // 
@@ -205,36 +170,74 @@
             this.txtAccionUsuario.Size = new System.Drawing.Size(100, 20);
             this.txtAccionUsuario.TabIndex = 6;
             // 
-            // btnAccionModificar
-            // 
-            this.btnAccionModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAccionModificar.Location = new System.Drawing.Point(681, 157);
-            this.btnAccionModificar.Name = "btnAccionModificar";
-            this.btnAccionModificar.Size = new System.Drawing.Size(106, 32);
-            this.btnAccionModificar.TabIndex = 7;
-            this.btnAccionModificar.Text = "Modificar";
-            this.btnAccionModificar.UseVisualStyleBackColor = true;
-            // 
             // btnAccionEliminar
             // 
             this.btnAccionEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAccionEliminar.Location = new System.Drawing.Point(681, 220);
+            this.btnAccionEliminar.Location = new System.Drawing.Point(681, 250);
             this.btnAccionEliminar.Name = "btnAccionEliminar";
             this.btnAccionEliminar.Size = new System.Drawing.Size(106, 33);
             this.btnAccionEliminar.TabIndex = 7;
             this.btnAccionEliminar.Text = "Eliminar";
             this.btnAccionEliminar.UseVisualStyleBackColor = true;
+            this.btnAccionEliminar.Click += new System.EventHandler(this.btnAccionEliminar_Click);
             // 
             // btnAccionSalir
             // 
             this.btnAccionSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAccionSalir.Location = new System.Drawing.Point(725, 622);
+            this.btnAccionSalir.Location = new System.Drawing.Point(695, 613);
             this.btnAccionSalir.Name = "btnAccionSalir";
-            this.btnAccionSalir.Size = new System.Drawing.Size(106, 26);
+            this.btnAccionSalir.Size = new System.Drawing.Size(106, 35);
             this.btnAccionSalir.TabIndex = 7;
             this.btnAccionSalir.Text = "Salir";
             this.btnAccionSalir.UseVisualStyleBackColor = true;
             this.btnAccionSalir.Click += new System.EventHandler(this.btnAccionSalir_Click);
+            // 
+            // btnAccionCargar
+            // 
+            this.btnAccionCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAccionCargar.Location = new System.Drawing.Point(385, 615);
+            this.btnAccionCargar.Name = "btnAccionCargar";
+            this.btnAccionCargar.Size = new System.Drawing.Size(106, 33);
+            this.btnAccionCargar.TabIndex = 7;
+            this.btnAccionCargar.Text = "Cargar";
+            this.btnAccionCargar.UseVisualStyleBackColor = true;
+            this.btnAccionCargar.Click += new System.EventHandler(this.btnAccionCargar_Click);
+            // 
+            // btnAccionGuardar
+            // 
+            this.btnAccionGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAccionGuardar.Location = new System.Drawing.Point(49, 615);
+            this.btnAccionGuardar.Name = "btnAccionGuardar";
+            this.btnAccionGuardar.Size = new System.Drawing.Size(106, 33);
+            this.btnAccionGuardar.TabIndex = 7;
+            this.btnAccionGuardar.Text = "Guardar";
+            this.btnAccionGuardar.UseVisualStyleBackColor = true;
+            this.btnAccionGuardar.Click += new System.EventHandler(this.btnAccionGuardar_Click);
+            // 
+            // btnAccionEditar
+            // 
+            this.btnAccionEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAccionEditar.Location = new System.Drawing.Point(681, 202);
+            this.btnAccionEditar.Name = "btnAccionEditar";
+            this.btnAccionEditar.Size = new System.Drawing.Size(106, 32);
+            this.btnAccionEditar.TabIndex = 7;
+            this.btnAccionEditar.Text = "Editar";
+            this.btnAccionEditar.UseVisualStyleBackColor = true;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // btnAccionAgregar
+            // 
+            this.btnAccionAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAccionAgregar.Location = new System.Drawing.Point(681, 154);
+            this.btnAccionAgregar.Name = "btnAccionAgregar";
+            this.btnAccionAgregar.Size = new System.Drawing.Size(106, 32);
+            this.btnAccionAgregar.TabIndex = 7;
+            this.btnAccionAgregar.Text = "Agregar";
+            this.btnAccionAgregar.UseVisualStyleBackColor = true;
+            this.btnAccionAgregar.Click += new System.EventHandler(this.btnAccionAgregar_Click);
             // 
             // Form4
             // 
@@ -243,8 +246,11 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(856, 671);
             this.Controls.Add(this.btnAccionSalir);
+            this.Controls.Add(this.btnAccionGuardar);
+            this.Controls.Add(this.btnAccionCargar);
             this.Controls.Add(this.btnAccionEliminar);
-            this.Controls.Add(this.btnAccionModificar);
+            this.Controls.Add(this.btnAccionAgregar);
+            this.Controls.Add(this.btnAccionEditar);
             this.Controls.Add(this.txtAccionUsuario);
             this.Controls.Add(this.txtAccionCantidad);
             this.Controls.Add(this.txtAccionPrecio);
@@ -272,11 +278,6 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridView dgvInventario;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Productos;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Usuario;
         private System.Windows.Forms.Label lblInventariodeProductos;
         private System.Windows.Forms.Label lblAccionProducto;
         private System.Windows.Forms.Label lblAccionID;
@@ -288,8 +289,13 @@
         private System.Windows.Forms.Label lblAccionUsuario;
         private System.Windows.Forms.TextBox txtAccionCantidad;
         private System.Windows.Forms.TextBox txtAccionUsuario;
-        private System.Windows.Forms.Button btnAccionModificar;
         private System.Windows.Forms.Button btnAccionEliminar;
         private System.Windows.Forms.Button btnAccionSalir;
+        private System.Windows.Forms.Button btnAccionCargar;
+        private System.Windows.Forms.Button btnAccionGuardar;
+        private System.Windows.Forms.Button btnAccionEditar;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.Button btnAccionAgregar;
     }
 }
