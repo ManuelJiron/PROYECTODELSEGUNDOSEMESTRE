@@ -47,11 +47,13 @@ namespace inicio_de_sesion
                     {
                         int ID = lector.ReadInt32();
                         int tamaño = lector.ReadInt32();
+                        int tamaño2 = lector.ReadInt32();
                         char[] nombreArray = lector.ReadChars(tamaño);
                         string Producto = new string(nombreArray);
                         decimal Precio = lector.ReadDecimal();
                         int Cantidad = lector.ReadInt32();
-                        string Usuario = new string(nombreArray);
+                        char[] usuarioArray = lector.ReadChars(tamaño2);
+                        string Usuario = new string(usuarioArray);
 
                         inventario Inventario = new inventario();
                         Inventario.id = ID;

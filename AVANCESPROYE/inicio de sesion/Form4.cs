@@ -105,7 +105,24 @@ namespace inicio_de_sesion
 
         private void btnAccionGuardar_Click(object sender, EventArgs e)
         {
+            try
+            {
+                saveFileDialog1.Filter = "Archivos DAT (*.dat)|*.dat";
+                saveFileDialog1.Title = "Guardar archivo";
 
+                if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+                {
+                    Class2 archivo = new Class2();
+
+                    archivo.GuardarArchivo(inventarios, saveFileDialog1.FileName);
+                    MessageBox.Show("Archivo guardado...", "Archivo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void LimpiarPantalla()
@@ -141,6 +158,46 @@ namespace inicio_de_sesion
 
             MostrarDatos();
             LimpiarPantalla();
+        }
+
+        private void btnAccionEditar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (int.TryParse(txtAccionID.Text, out int id))
+                {
+                    int index = inventarios.FindIndex(p => p.id == id);
+                    if (index != -1)
+                    {
+                        // Crear una copia modificada de la estructura
+                        inventario productoEditado = inventarios[index];
+                        productoEditado.producto = txtAccionProducto.Text;
+                        productoEditado.precio = decimal.Parse(txtAccionPrecio.Text);
+                        productoEditado.cantidad = int.Parse(txtAccionCantidad.Text);
+                        productoEditado.usuario = txtAccionUsuario.Text;
+
+                        // Reemplazar el elemento en la lista
+                        inventarios[index] = productoEditado;
+
+                        MessageBox.Show("Producto actualizado correctamente.", "Editar Producto", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("El producto con el ID ingresado no existe en el inventario.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+
+                    MostrarDatos();
+                    LimpiarPantalla();
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, ingresa un ID válido.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al editar el producto: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

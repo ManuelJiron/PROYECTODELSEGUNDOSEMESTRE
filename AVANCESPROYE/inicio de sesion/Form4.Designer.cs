@@ -65,10 +65,12 @@
             // dgvInventario
             // 
             this.dgvInventario.AllowUserToAddRows = false;
+            this.dgvInventario.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvInventario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvInventario.Location = new System.Drawing.Point(132, 359);
             this.dgvInventario.Name = "dgvInventario";
             this.dgvInventario.ReadOnly = true;
+            this.dgvInventario.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvInventario.Size = new System.Drawing.Size(545, 215);
             this.dgvInventario.TabIndex = 2;
             this.dgvInventario.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvInventario_CellContentClick);
@@ -223,6 +225,7 @@
             this.btnAccionEditar.TabIndex = 7;
             this.btnAccionEditar.Text = "Editar";
             this.btnAccionEditar.UseVisualStyleBackColor = true;
+            this.btnAccionEditar.Click += new System.EventHandler(this.btnAccionEditar_Click);
             // 
             // openFileDialog1
             // 
