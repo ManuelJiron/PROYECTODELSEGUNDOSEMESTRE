@@ -16,7 +16,7 @@ namespace inicio_de_sesion
 
         private List<inventario> inventarios;
         private inventario productos = new inventario();
-
+        private string rutaArchivo;
 
         public Form4()
         {
@@ -37,6 +37,25 @@ namespace inicio_de_sesion
 
         }
 
+        private void GuardarCambios()
+        {
+            if (!string.IsNullOrEmpty(rutaArchivo))
+            {
+                try
+                {
+                    Class2 archivo = new Class2();
+                    archivo.GuardarArchivo(inventarios, rutaArchivo);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error al guardar los cambios: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("No se ha cargado o especificado un archivo para guardar los cambios.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
 
         private void dgvInventario_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -76,10 +95,10 @@ namespace inicio_de_sesion
 
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                string ruta = openFileDialog1.FileName;
+                rutaArchivo = openFileDialog1.FileName;
 
                 Class2 archivo = new Class2();
-                inventarios = archivo.CargarInventario(ruta);
+                inventarios = archivo.CargarInventario(rutaArchivo);
 
                 MostrarDatos();
             }
@@ -96,6 +115,7 @@ namespace inicio_de_sesion
                 inventarios.Remove(productos);
                 MessageBox.Show("Producto eliminado...", "Producto", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 MostrarDatos();
+                GuardarCambios();
             }
             catch (Exception ex)
             {
@@ -158,6 +178,7 @@ namespace inicio_de_sesion
 
             MostrarDatos();
             LimpiarPantalla();
+            
         }
 
         private void btnAccionEditar_Click(object sender, EventArgs e)
@@ -188,6 +209,7 @@ namespace inicio_de_sesion
 
                     MostrarDatos();
                     LimpiarPantalla();
+                    GuardarCambios();
                 }
                 else
                 {
