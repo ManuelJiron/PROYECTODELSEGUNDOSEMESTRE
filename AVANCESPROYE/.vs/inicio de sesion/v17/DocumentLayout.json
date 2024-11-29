@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|d:\\proyectodelsegundosemestre\\avancesproye\\inicio de sesion\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|solutionrelative:inicio de sesion\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|solutionrelative:inicio de sesion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|d:\\proyectodelsegundosemestre\\avancesproye\\inicio de sesion\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|solutionrelative:inicio de sesion\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -58,8 +58,7 @@
               "RelativeToolTip": "inicio de sesion\\Class2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T02:31:45.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T02:31:45.579Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "inicio de sesion\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T02:27:58.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T02:27:58.995Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "inicio de sesion\\Form2.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAUwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:10:07.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T17:10:07.32Z"
             },
             {
               "$type": "Document",
@@ -95,7 +92,7 @@
               "RelativeDocumentMoniker": "inicio de sesion\\Form4.cs",
               "ToolTip": "D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\Form4.cs",
               "RelativeToolTip": "inicio de sesion\\Form4.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAiwLAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T17:06:26.354Z",
               "EditorCaption": ""
@@ -121,8 +118,7 @@
               "ToolTip": "D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\Form4.cs [Dise\u00F1o]",
               "RelativeToolTip": "inicio de sesion\\Form4.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:02:47.315Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-24T17:02:47.315Z"
             },
             {
               "$type": "Document",
@@ -133,8 +129,7 @@
               "ToolTip": "D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\Form2.cs [Dise\u00F1o]",
               "RelativeToolTip": "inicio de sesion\\Form2.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:02:45.817Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-24T17:02:45.817Z"
             },
             {
               "$type": "Document",

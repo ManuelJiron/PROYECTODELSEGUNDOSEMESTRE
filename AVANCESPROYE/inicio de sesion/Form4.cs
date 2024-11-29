@@ -157,27 +157,43 @@ namespace inicio_de_sesion
 
         private void btnAccionAgregar_Click(object sender, EventArgs e)
         {
-            inventario Inventario = new inventario();
 
-            Inventario.id = int.Parse(txtAccionID.Text);
-            Inventario.producto = txtAccionProducto.Text;
-            Inventario.precio = decimal.Parse(txtAccionPrecio.Text);
-            Inventario.cantidad = int.Parse(txtAccionCantidad.Text);
-            Inventario.usuario = txtAccionUsuario.Text;
-
-            int index = inventarios.FindIndex(item => item.id == Inventario.id);
-
-            if (index != -1)
+            try
             {
-                inventarios[index] = Inventario;
-            }
-            else
-            {
-                inventarios.Add(Inventario);
-            }
 
-            MostrarDatos();
-            LimpiarPantalla();
+                inventario Inventario = new inventario();
+
+                Inventario.id = int.Parse(txtAccionID.Text);
+                Inventario.producto = txtAccionProducto.Text;
+                Inventario.precio = decimal.Parse(txtAccionPrecio.Text);
+                Inventario.cantidad = int.Parse(txtAccionCantidad.Text);
+                Inventario.usuario = txtAccionUsuario.Text;
+
+                if (Inventario.id < 0 || Inventario.precio < 0 || Inventario.cantidad < 0)
+                {
+                    MessageBox.Show("Los valores de ID, precio y cantidad no pueden ser negativos.", "Valores inválidos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                int index = inventarios.FindIndex(item => item.id == Inventario.id);
+
+                if (index != -1)
+                {
+                    inventarios[index] = Inventario;
+                }
+                else
+                {
+                    inventarios.Add(Inventario);
+                }
+
+                MostrarDatos();
+                LimpiarPantalla();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Verifique valores", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             
         }
 
