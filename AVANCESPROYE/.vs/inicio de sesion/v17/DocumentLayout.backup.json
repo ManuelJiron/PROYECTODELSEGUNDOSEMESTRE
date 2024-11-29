@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|solutionrelative:inicio de sesion\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|solutionrelative:inicio de sesion\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|d:\\proyectodelsegundosemestre\\avancesproye\\inicio de sesion\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|solutionrelative:inicio de sesion\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|solutionrelative:inicio de sesion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|solutionrelative:inicio de sesion\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|solutionrelative:inicio de sesion\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|solutionrelative:inicio de sesion\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8016A4EF-559D-45EF-B75F-626E496F118F}|inicio de sesion\\inicio de sesion.csproj|D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,56 +46,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Class2.cs",
               "DocumentMoniker": "D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\Class2.cs",
               "RelativeDocumentMoniker": "inicio de sesion\\Class2.cs",
               "ToolTip": "D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\Class2.cs",
               "RelativeToolTip": "inicio de sesion\\Class2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAgwA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T02:31:45.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\Class1.cs",
               "RelativeDocumentMoniker": "inicio de sesion\\Class1.cs",
               "ToolTip": "D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\Class1.cs",
               "RelativeToolTip": "inicio de sesion\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T02:27:58.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form2.cs",
               "DocumentMoniker": "D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\Form2.cs",
               "RelativeDocumentMoniker": "inicio de sesion\\Form2.cs",
               "ToolTip": "D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\Form2.cs",
               "RelativeToolTip": "inicio de sesion\\Form2.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T17:10:07.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form4.cs",
               "DocumentMoniker": "D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\Form4.cs",
               "RelativeDocumentMoniker": "inicio de sesion\\Form4.cs",
               "ToolTip": "D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\Form4.cs",
               "RelativeToolTip": "inicio de sesion\\Form4.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAuwMYAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAiwJEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T17:06:26.354Z",
               "EditorCaption": ""
@@ -110,24 +110,22 @@
               "RelativeToolTip": "inicio de sesion\\Form1.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:02:59.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T17:02:59.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Form4.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\Form4.cs",
               "RelativeDocumentMoniker": "inicio de sesion\\Form4.cs",
               "ToolTip": "D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\Form4.cs [Dise\u00F1o]",
               "RelativeToolTip": "inicio de sesion\\Form4.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:02:47.315Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-24T17:02:47.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form2.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\Form2.cs",
               "RelativeDocumentMoniker": "inicio de sesion\\Form2.cs",
@@ -139,15 +137,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\Form1.cs",
               "RelativeDocumentMoniker": "inicio de sesion\\Form1.cs",
               "ToolTip": "D:\\PROYECTODELSEGUNDOSEMESTRE\\AVANCESPROYE\\inicio de sesion\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "inicio de sesion\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:02:27.461Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-24T17:02:27.461Z"
             },
             {
               "$type": "Document",
@@ -159,8 +156,7 @@
               "RelativeToolTip": "inicio de sesion\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:02:21.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T17:02:21.792Z"
             }
           ]
         }
