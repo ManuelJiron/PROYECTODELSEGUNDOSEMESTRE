@@ -64,3 +64,69 @@ D:\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\obj\Debug\Proyecto
 D:\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\obj\Debug\Proyecto.86EF9492.Up2Date
 D:\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\obj\Debug\inicio de sesion.exe
 D:\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\obj\Debug\inicio de sesion.pdb
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\inicio de sesion.exe.config
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\inicio de sesion.exe
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\inicio de sesion.pdb
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\EnvDTE.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\stdole.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\obj\Debug\ProyectoInventario.csproj.AssemblyReference.cache
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\obj\Debug\inicio_de_sesion.s.resources
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\obj\Debug\inicio_de_sesion.Form2.resources
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\obj\Debug\inicio_de_sesion.Form4.resources
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\obj\Debug\inicio_de_sesion.FrmReporte.resources
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\obj\Debug\inicio_de_sesion.Properties.Resources.resources
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\obj\Debug\ProyectoInventario.csproj.GenerateResource.cache
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\obj\Debug\ProyectoInventario.csproj.CoreCompileInputs.cache
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\obj\Debug\Proyecto.86EF9492.Up2Date
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\obj\Debug\inicio de sesion.exe
+D:\REPODEFENSA\PROYECTODELSEGUNDOSEMESTRE\AVANCESPROYE\ProyectoInventario\obj\Debug\inicio de sesion.pdb

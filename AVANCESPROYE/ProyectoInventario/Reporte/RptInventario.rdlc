@@ -6,16 +6,16 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>4.00395cm</Width>
+              <Width>3.13612cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.49605cm</Width>
+              <Width>2.88222cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.33553cm</Width>
+              <Width>2.82072cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.80899cm</Width>
+              <Width>2.63147cm</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>2.5cm</Width>
@@ -384,10 +384,10 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DsDatosInventario</DataSetName>
-        <Top>1.84195cm</Top>
-        <Left>6.75484cm</Left>
+        <Top>1.58795cm</Top>
+        <Left>0.70117cm</Left>
         <Height>1.2cm</Height>
-        <Width>17.14452cm</Width>
+        <Width>13.97053cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -409,8 +409,8 @@
           <Source>Embedded</Source>
           <Value>images</Value>
           <Sizing>FitProportional</Sizing>
-          <Top>0.31432cm</Top>
-          <Left>7.59037cm</Left>
+          <Top>0.56832cm</Top>
+          <Left>1.93887cm</Left>
           <Height>2.82013cm</Height>
           <Width>13.91035cm</Width>
           <Style>
@@ -438,9 +438,9 @@
           </Paragraphs>
           <rd:DefaultName>Textbox4</rd:DefaultName>
           <Top>4.31354cm</Top>
-          <Left>11.52546cm</Left>
+          <Left>5.09079cm</Left>
           <Height>0.85066cm</Height>
-          <Width>6.06491cm</Width>
+          <Width>7.08091cm</Width>
           <ZIndex>1</ZIndex>
           <Style>
             <Border>
@@ -479,8 +479,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>TotalPages</rd:DefaultName>
-          <Top>1.04106cm</Top>
-          <Left>26.7335cm</Left>
+          <Top>1.02306cm</Top>
+          <Left>15.34569cm</Left>
           <Height>0.6cm</Height>
           <Width>2.5cm</Width>
           <Style>
@@ -508,8 +508,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox6</rd:DefaultName>
-          <Top>1.04106cm</Top>
-          <Left>24.19822cm</Left>
+          <Top>1.02306cm</Top>
+          <Left>12.81041cm</Left>
           <Height>0.6cm</Height>
           <Width>2.5cm</Width>
           <ZIndex>1</ZIndex>
