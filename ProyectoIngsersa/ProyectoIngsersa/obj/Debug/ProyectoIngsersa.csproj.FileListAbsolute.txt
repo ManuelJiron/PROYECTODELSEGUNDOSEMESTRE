@@ -1,0 +1,16 @@
+C:\Users\PC\source\repos\ProyectoIngsersa\ProyectoIngsersa\bin\Debug\ProyectoIngsersa.exe.config
+C:\Users\PC\source\repos\ProyectoIngsersa\ProyectoIngsersa\bin\Debug\ProyectoIngsersa.exe
+C:\Users\PC\source\repos\ProyectoIngsersa\ProyectoIngsersa\bin\Debug\ProyectoIngsersa.pdb
+C:\Users\PC\source\repos\ProyectoIngsersa\ProyectoIngsersa\bin\Debug\MetroFramework.Design.dll
+C:\Users\PC\source\repos\ProyectoIngsersa\ProyectoIngsersa\bin\Debug\MetroFramework.dll
+C:\Users\PC\source\repos\ProyectoIngsersa\ProyectoIngsersa\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\PC\source\repos\ProyectoIngsersa\ProyectoIngsersa\obj\Debug\ProyectoIngsersa.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\ProyectoIngsersa\ProyectoIngsersa\obj\Debug\ProyectoIngsersa.Form1.resources
+C:\Users\PC\source\repos\ProyectoIngsersa\ProyectoIngsersa\obj\Debug\ProyectoIngsersa.Properties.Resources.resources
+C:\Users\PC\source\repos\ProyectoIngsersa\ProyectoIngsersa\obj\Debug\ProyectoIngsersa.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\ProyectoIngsersa\ProyectoIngsersa\obj\Debug\ProyectoIngsersa.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\ProyectoIngsersa\ProyectoIngsersa\obj\Debug\Proyecto.916F3D50.Up2Date
+C:\Users\PC\source\repos\ProyectoIngsersa\ProyectoIngsersa\obj\Debug\ProyectoIngsersa.exe
+C:\Users\PC\source\repos\ProyectoIngsersa\ProyectoIngsersa\obj\Debug\ProyectoIngsersa.pdb
+C:\Users\PC\source\repos\ProyectoIngsersa\ProyectoIngsersa\obj\Debug\ProyectoIngsersa.Form2.resources
+C:\Users\PC\source\repos\ProyectoIngsersa\ProyectoIngsersa\obj\Debug\ProyectoIngsersa.Form3.resources
