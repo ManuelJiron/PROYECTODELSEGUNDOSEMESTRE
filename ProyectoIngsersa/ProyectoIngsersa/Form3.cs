@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.Reporting.WinForms;
 using ProyectoIngsersa.Properties;
 using static ProyectoIngsersa.Class1;
 
@@ -228,6 +229,21 @@ namespace ProyectoIngsersa
             {
                 MessageBox.Show("No se seleccionó ningún archivo.");
             }
+        }
+
+        private void btnAccionReporte_Click(object sender, EventArgs e)
+        {
+            ReportDataSource dataSource = new ReportDataSource("DsDatosInventario", inventarios);
+
+            FrmReportes frmReportes = new FrmReportes();
+
+            frmReportes.reportViewer1.LocalReport.DataSources.Clear();
+            frmReportes.reportViewer1.LocalReport.DataSources.Add(dataSource);
+
+            frmReportes.reportViewer1.LocalReport.ReportEmbeddedResource = "ProyectoIngsersa.Reportes.RptInventario.rdlc";
+
+            frmReportes.reportViewer1.RefreshReport();
+            frmReportes.ShowDialog();
         }
     }
 }
