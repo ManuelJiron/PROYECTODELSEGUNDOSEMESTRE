@@ -44,9 +44,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::ProyectoIngsersa.Properties.Resources._6522581;
-            this.pictureBox2.Location = new System.Drawing.Point(352, 267);
+            this.pictureBox2.Location = new System.Drawing.Point(469, 329);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(70, 60);
+            this.pictureBox2.Size = new System.Drawing.Size(93, 74);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -54,7 +55,8 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ProyectoIngsersa.Properties.Resources.images1;
-            this.pictureBox1.Location = new System.Drawing.Point(142, 19);
+            this.pictureBox1.Location = new System.Drawing.Point(189, 23);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(498, 101);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -65,9 +67,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(129, 416);
+            this.label3.Location = new System.Drawing.Point(172, 512);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 18);
+            this.label3.Size = new System.Drawing.Size(111, 24);
             this.label3.TabIndex = 3;
             this.label3.Text = "Contraseña:";
             // 
@@ -75,9 +78,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(154, 352);
+            this.label2.Location = new System.Drawing.Point(205, 433);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 18);
+            this.label2.Size = new System.Drawing.Size(79, 24);
             this.label2.TabIndex = 3;
             this.label2.Text = "Usuario:";
             // 
@@ -85,9 +89,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(330, 172);
+            this.label1.Location = new System.Drawing.Point(440, 212);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 24);
+            this.label1.Size = new System.Drawing.Size(146, 29);
             this.label1.TabIndex = 1;
             this.label1.Text = "¡Bienvenido!";
             // 
@@ -98,25 +103,27 @@
             // 
             // 
             this.txtContraseña.CustomButton.Image = null;
-            this.txtContraseña.CustomButton.Location = new System.Drawing.Point(304, 1);
+            this.txtContraseña.CustomButton.Location = new System.Drawing.Point(545, 2);
+            this.txtContraseña.CustomButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtContraseña.CustomButton.Name = "";
-            this.txtContraseña.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txtContraseña.CustomButton.Size = new System.Drawing.Size(31, 28);
             this.txtContraseña.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.txtContraseña.CustomButton.TabIndex = 1;
             this.txtContraseña.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtContraseña.CustomButton.UseSelectable = true;
             this.txtContraseña.CustomButton.Visible = false;
             this.txtContraseña.Lines = new string[0];
-            this.txtContraseña.Location = new System.Drawing.Point(224, 416);
+            this.txtContraseña.Location = new System.Drawing.Point(299, 512);
+            this.txtContraseña.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtContraseña.MaxLength = 32767;
             this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.PasswordChar = '\0';
+            this.txtContraseña.PasswordChar = '*';
             this.txtContraseña.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtContraseña.SelectedText = "";
             this.txtContraseña.SelectionLength = 0;
             this.txtContraseña.SelectionStart = 0;
             this.txtContraseña.ShortcutsEnabled = true;
-            this.txtContraseña.Size = new System.Drawing.Size(326, 23);
+            this.txtContraseña.Size = new System.Drawing.Size(435, 28);
             this.txtContraseña.TabIndex = 4;
             this.txtContraseña.UseCustomBackColor = true;
             this.txtContraseña.UseCustomForeColor = true;
@@ -131,16 +138,18 @@
             // 
             // 
             this.txtUsuario.CustomButton.Image = null;
-            this.txtUsuario.CustomButton.Location = new System.Drawing.Point(304, 1);
+            this.txtUsuario.CustomButton.Location = new System.Drawing.Point(545, 2);
+            this.txtUsuario.CustomButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUsuario.CustomButton.Name = "";
-            this.txtUsuario.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txtUsuario.CustomButton.Size = new System.Drawing.Size(31, 28);
             this.txtUsuario.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.txtUsuario.CustomButton.TabIndex = 1;
             this.txtUsuario.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtUsuario.CustomButton.UseSelectable = true;
             this.txtUsuario.CustomButton.Visible = false;
             this.txtUsuario.Lines = new string[0];
-            this.txtUsuario.Location = new System.Drawing.Point(224, 352);
+            this.txtUsuario.Location = new System.Drawing.Point(299, 433);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUsuario.MaxLength = 32767;
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.PasswordChar = '\0';
@@ -149,7 +158,7 @@
             this.txtUsuario.SelectionLength = 0;
             this.txtUsuario.SelectionStart = 0;
             this.txtUsuario.ShortcutsEnabled = true;
-            this.txtUsuario.Size = new System.Drawing.Size(326, 23);
+            this.txtUsuario.Size = new System.Drawing.Size(435, 28);
             this.txtUsuario.TabIndex = 4;
             this.txtUsuario.UseCustomBackColor = true;
             this.txtUsuario.UseCustomForeColor = true;
@@ -160,9 +169,10 @@
             // btnSalir
             // 
             this.btnSalir.FontSize = MetroFramework.MetroButtonSize.Medium;
-            this.btnSalir.Location = new System.Drawing.Point(675, 552);
+            this.btnSalir.Location = new System.Drawing.Point(900, 679);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(73, 52);
+            this.btnSalir.Size = new System.Drawing.Size(97, 64);
             this.btnSalir.TabIndex = 5;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseSelectable = true;
@@ -171,9 +181,10 @@
             // btnIniciarSesion
             // 
             this.btnIniciarSesion.FontSize = MetroFramework.MetroButtonSize.Medium;
-            this.btnIniciarSesion.Location = new System.Drawing.Point(322, 491);
+            this.btnIniciarSesion.Location = new System.Drawing.Point(429, 604);
+            this.btnIniciarSesion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnIniciarSesion.Name = "btnIniciarSesion";
-            this.btnIniciarSesion.Size = new System.Drawing.Size(135, 58);
+            this.btnIniciarSesion.Size = new System.Drawing.Size(180, 71);
             this.btnIniciarSesion.TabIndex = 6;
             this.btnIniciarSesion.Text = "Iniciar Sesión";
             this.btnIniciarSesion.UseSelectable = true;
@@ -181,9 +192,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(782, 627);
+            this.ClientSize = new System.Drawing.Size(1043, 772);
             this.Controls.Add(this.btnIniciarSesion);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.txtUsuario);
@@ -193,7 +204,9 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
+            this.Padding = new System.Windows.Forms.Padding(27, 74, 27, 25);
             this.Resizable = false;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
